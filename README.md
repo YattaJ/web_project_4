@@ -3,7 +3,7 @@
 ### Overview
 
 * Figma
-* Images
+* Project
 
 **Figma**
 
