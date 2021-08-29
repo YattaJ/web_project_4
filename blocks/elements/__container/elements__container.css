@@ -14,7 +14,7 @@
     .elements__container {
         grid-template-columns:1fr;
         -moz-column-gap: 0;
-        column-gap: 0
+        column-gap: 0;
     }
 }
 
