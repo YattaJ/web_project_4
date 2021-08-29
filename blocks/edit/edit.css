@@ -1,0 +1,19 @@
+.edit {
+  position: fixed;
+  display: none;
+  margin: 0;
+  justify-content: center;
+  flex-flow: column;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  z-index: 98754321;
+  background-color: rgba(0, 0, 0, .5);
+}
+
+@media screen and (max-width: 659px) {
+  .edit {
+    padding: auto 0;
+  }
+}

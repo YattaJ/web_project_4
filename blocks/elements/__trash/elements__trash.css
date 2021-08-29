@@ -1,0 +1,13 @@
+.elements__trash {
+    outline: none;
+    background-color: transparent;
+    border: none;
+    position: absolute;
+    top: 18px;
+    right: 15px;
+    background-image: url(a85cc5e….svg);
+    background-position: 50%;
+    object-fit: contain;
+    width: 18px;
+    height: 19.5px;
+}
