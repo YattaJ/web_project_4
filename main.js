@@ -18,7 +18,7 @@ function handleFormSubmit(evt) {
     evt.preventDefault();
 
     // Insert new values using the textContent property of the querySelector() method
-    titleField.textContent = nameInput.value;
+    nameField.textContent = nameInput.value;
     jobField.textContent = jobInput.value;
 
     // Close edit after saving

@@ -1,7 +1,6 @@
 .elements__title-box {
-    width: 100%;
-    background-color: #fff;
-    border-radius: 0 0 10px 10px;
+    margin: 25px 15px 31px 21px;
+    width: calc(100% - 36px);
     display: flex;
     justify-content: space-between;
     align-items: center;

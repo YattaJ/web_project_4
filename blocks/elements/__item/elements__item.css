@@ -1,3 +1,9 @@
 .elements__item {
-    position: relative;
+    margin: 0;
+	background-color: #fff;
+    box-shadow: 0 0 25px rgb(0 0 0 / 15%);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
 }
+
