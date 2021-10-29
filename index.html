@@ -1,89 +1,139 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <title>Around the U.S.</title>
-        <link href="pages/index.css" rel="stylesheet" />
-    </head>
-    <body class="page">
-        <header class="header">
-            <img src="./images/logo.svg" alt="logo" class="header__logo" />
-        </header>
-        <main>
-            <section class="profile">
-			<div class="profile__container">
-                    <img src="./images/profile-pic.jpg" alt="Profile picture" class="profile__img" />
-                <div class="profile__title-box">
-                        <h1 class="profile__name">Jacques Cousteau</h1>
-                        <button type="button" class="profile__edit-btn link" aria-label="open edit profile menu"></button>
-                    <p class="profile__career">Explorer</p>
-					</div>
-                </div>
-                <button type="button" class="profile__add-btn link"></button>
-            </section>
-            <section class="elements">
-                    <article class="elements__item">
-                        <img src="./images/yosemite.png" alt="Grand Canyon" class="elements__img" />
-                        <div class="elements__title-box">
-                            <h2 class="elements__title">Yosemite Valley</h2>
-                            <button type="button" class="elements__heart" aria-label="like button"></button>
-                        </div>
-                    </article>
-                    <article class="elements__item">
-                        <img src="./images/lake-louise.png" alt="Lake Tahoe" class="elements__img" />
-                        <div class="elements__title-box">
-                            <h2 class="elements__title">Lake Louise</h2>
-                                <button class="elements__heart"></button>
-                        </div>
-                    </article>
-                    <article class="elements__item">
-                        <img src="./images/bald.png" alt="Sabino Canyon" class="elements__img" />
-                        <div class="elements__title-box">
-                            <h2 class="elements__title">Bald Mountains</h2>
-                                <button class="elements__heart"></button>
-                        </div>
-                    </article>
-                    <article class="elements__item">
-                        <img src="./images/latemar.png" alt="Virginia" class="elements__img" />
-                        <div class="elements__title-box">
-                            <h2 class="elements__title">Latemar</h2>
-                                <button class="elements__heart"></button>
-                        </div>
-                    </article>
-                    <article class="elements__item">
-                        <img src="./images/vanoise.png" alt="Washington" class="elements__img" />
-                        <div class="elements__title-box">
-                            <h2 class="elements__title">Vanoise National</h2>
-                                <button class="elements__heart"></button>
-                        </div>
-                    </article>
-                    <article class="elements__item">
-                        <img src="./images/lago.png" alt="Yosemite" class="elements__img" />
-                        <div class="elements__title-box">
-                            <h2 class="elements__title">Lago di Braies</h2>
-                                <button class="elements__heart"></button>
-                        </div>
-                    </article>
-            </section>
 
-            <section class="edit">
-                <div class="edit__body">
-                    <form class="edit__form" name="profile">
-                        <button type="button" class="edit__close-btn link" aria-label="close edit profile menu"></button>
-                        <h2 class="edit__title">Edit profile</h2>
-                        <input type="text" name="name" id="name" class="edit__input" />
-                        <input type="text" name="career" id="career" class="edit__input" />
-                        <button type="submit" class="edit__save">Save</button>
-                    </form>
-                </div>
-            </section>
-        </main>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width height=device-height initial-scale=1" />
+    <title>Around The U.S.</title>
+    <link rel="stylesheet" href="./pages/index.css" />
+  </head>
 
-        <footer class="footer">
-            <p class="footer__text">&copy; 2021 Around The U.S.</p>
-        </footer>
+  <body class="page">
 
-        <script src="main.js"></script>
-    </body>
+    <header class="header">
+      <img src="./images/logo.svg" alt="Around subscript the US" class="header__logo">
+    </header>
+
+    <main>
+      <section class="profile">
+        <div class="profile__content">
+          <img src="./images/profile-pic.jpg" alt="Profile picture" class="profile__avatar">
+          <div class="profile__info">
+            <h1 class="profile__name">Jacques Cousteau</h1>
+            <button type="button" class="profile__edit-btn link" aria-label="open edit profile menu"></button>
+            <p class="profile__career">Explorer</p>
+          </div>
+        </div>
+        <button type="button" class="profile__add-btn link"></button>
+      </section>
+
+      <section class="cards">
+	  <article class="card">
+          <button type="button" class="card__trash link" aria-label="trash button"></button>
+          <img src="./images/yosemite.png" class="card__image" alt="Image of Yosemite Valley">
+          <div class="card__info-wrapper">
+            <h2 class="card__title">Yosemite Valley</h2>
+            <button type="button" class="card__like" aria-label="like button"></button>
+          </div>
+        </article>
+		<article class="card">
+          <button type="button" class="card__trash link" aria-label="trash button"></button>
+          <img src="./images/lake-louise.png" class="card__image" alt="Image of Lake Louise">
+          <div class="card__info-wrapper">
+            <h2 class="card__title">Lake Louise</h2>
+            <button type="button" class="card__like" aria-label="like button"></button>
+          </div>
+        </article>
+		<article class="card">
+          <button type="button" class="card__trash link" aria-label="trash button"></button>
+          <img src="./images/bald.png" class="card__image" alt="Image of Bald Mountains">
+          <div class="card__info-wrapper">
+            <h2 class="card__title">Bald Mountains</h2>
+            <button type="button" class="card__like" aria-label="like button"></button>
+          </div>
+        </article>
+		<article class="card">
+          <button type="button" class="card__trash link" aria-label="trash button"></button>
+          <img src="./images/latemar.png" class="card__image" alt="Image of Latemar">
+          <div class="card__info-wrapper">
+            <h2 class="card__title">Latemar</h2>
+            <button type="button" class="card__like" aria-label="like button"></button>
+          </div>
+        </article>
+		<article class="card">
+          <button type="button" class="card__trash link" aria-label="trash button"></button>
+          <img src="./images/vanoise.png" class="card__image" alt="Image of Vanoise National Park">
+          <div class="card__info-wrapper">
+            <h2 class="card__title">Vanoise National Park</h2>
+            <button type="button" class="card__like" aria-label="like button"></button>
+          </div>
+        </article>
+		<article class="card">
+          <button type="button" class="card__trash link" aria-label="trash button"></button>
+          <img src="./images/lago.png" class="card__image" alt="Image of Lago di Braies">
+          <div class="card__info-wrapper">
+            <h2 class="card__title">Lago di Braies</h2>
+            <button type="button" class="card__like" aria-label="like button"></button>
+          </div>
+        </article>
+      </section>
+
+      <section class="modal modal_type_profile">
+        <div class="modal__body">
+          <form class="modal__form modal__form_type_profile" name="profile">
+            <button type="button" class="modal__close-btn link" aria-label="close edit profile menu"></button>
+            <h2 class="modal__title">Edit profile</h2>
+            <input type="text" name="name" id="name" class="modal__input" minlength="2" maxlength="40" required>
+            <span class="modal__input-error modal__input-error_name"></span>
+            <input type="text" name="career" id="career" class="modal__input" minlength="2" maxlength="200" required>
+            <span class="modal__input-error modal__input-error_career"></span>
+            <button type="submit" class="modal__save" id="profile">Save</button>
+          </form>
+        </div>
+      </section>
+
+      <section class="modal modal_type_card">
+        <div class="modal__body">
+          <form class="modal__form modal__form_type_card" name="place">
+            <button type="button" class="modal__close-btn link" aria-label="close add place menu"></button>
+            <h2 class="modal__title">New place</h2>
+            <input type="text" name="place" id="place" class="modal__input" placeholder="Title" minlength="1" maxlength="30" required>
+            <span class="modal__input-error modal__input-error_place"></span>
+            <input type="url" name="image" id="image" class="modal__input" placeholder="Image link" required>
+            <span class="modal__input-error modal__input-error_image"></span>
+            <button type="submit" class="modal__save">Create</button>
+          </form>
+        </div>
+      </section>
+
+      <section class="modal modal_type_preview">
+        <div class="modal__body modal__body_type_preview">
+          <button type="button" class="modal__close-btn modal__close-btn_type_preview link" aria-label="close image preview"></button>
+          <img src="#" alt ="n/a" class="modal__image">
+          <p class="modal__caption"></p>
+        </div>
+      </section>
+
+      <template id="card">
+        <article class="card">
+          <button type="button" class="card__trash link" aria-label="trash button"></button>
+          <img src="placeholder" class="card__image">
+          <div class="card__info-wrapper">
+            <h2 class="card__title"></h2>
+            <button type="button" class="card__like" aria-label="like button"></button>
+          </div>
+        </article>
+      </template>
+
+    </main>
+
+    <footer class="footer">
+      <p class="footer__copyright">&copy; 2021 Around The U.S.</p>
+    </footer>
+
+    <script type="module" src="./scripts/script.js"></script>
+    <script type="module" src="./scripts/validate.js"></script>
+
+  </body>
+
 </html>
