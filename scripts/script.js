@@ -89,7 +89,7 @@ function openModal(modal) {
 function closeModal(modal) {
   modal.classList.remove("modal_display");
   document.removeEventListener("keydown", escModal);
-  resetValidation(modal);
+  
 }
 
 // Close card modal w/o saving
