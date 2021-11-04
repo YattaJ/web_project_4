@@ -192,7 +192,7 @@ function addCard(data) {
 
 function handleCardSubmit(evt) {
   evt.preventDefault();
-  //Create an array of the placeInput & imageInput vars
+  //Create an object of the placeInput & imageInput vars
   const cardDetails = { name: placeInput.value, link: linkInput.value };
 
   addCard(createCard(cardDetails));
