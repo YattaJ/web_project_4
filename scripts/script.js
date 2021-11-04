@@ -73,7 +73,7 @@ const initialCards = [
 // Functions
 
 function escModal(evt) {
-  const startModal = document.querySelector(".modal_display");
+  const openModal = document.querySelector(".modal_display");
 
   if (evt.key === "Escape") {
     closeModal(openModal);
