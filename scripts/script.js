@@ -93,7 +93,7 @@ function closeModal(modal) {
 }
 
 // Close card modal w/o saving
-function closeButtonHandler(evt) {
+function initializeCloseBtns(evt) {
   closeModal(evt.target.closest(".modal"));
 }
 
