@@ -93,7 +93,7 @@ function closeModal(modal) {
 }
 
 // Close card modal w/o saving
-function closeBtnsHandler(evt) {
+function closeButtonHandler(evt) {
   closeModal(evt.target.closest(".modal"));
 }
 
@@ -204,7 +204,7 @@ function handleCardSubmit(evt) {
 
 //Close modal
 closeModalBtns.forEach((button) => {
-  button.addEventListener("click", initializeCloseBtns);
+  button.addEventListener("click", closeButtonHandler);
 });
 
 // When user clicks outside of modal, close modal window.
